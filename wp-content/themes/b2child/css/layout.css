@@ -1,0 +1,142 @@
+/*整站背景颜色*/
+.site-content {
+    background-color: #353756;
+   
+}
+.site {
+    background-color: #353756;
+}
+/*文字logo颜色*/
+.site-title {
+    color: #fff;
+}
+/*右侧跟随导航*/
+.bar-middle{
+	display:none;
+}
+.bar-qrcode{
+	display:none;
+}
+/*标题只显示一行*/
+.post-info h2 {
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 22px;
+}
+.b2-light-dark {
+    background: #25252b;
+    /* background-color: rgba(0, 132, 255, 0.52); */
+}
+.tax-info-item.tag-list a {
+ border-radius: 0px; 
+}
+.tax-header {
+    border-bottom: 0px solid #eaeaea; 
+	width: 1200px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-right: auto;
+    margin-bottom: 16px;
+    margin-left: auto;
+    
+}
+
+ /* 文章开始 */
+.product {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    padding: 20px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.proPhoto {
+    float: left;
+    width: 200px;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+.proChoice {
+    margin-left: 220px;
+}
+.proChoice h1 {
+    line-height: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: .5px;
+    margin-top: -4px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: arial,helvetica,sans-serif;
+}
+.m {
+    margin-top: 10px;
+}
+
+.m div {
+    margin-bottom: 5px;
+    font-size: 14px;
+    display: flex;
+    padding: 10px 0;
+    border-bottom: 1px dashed #efefef;
+    line-height: 1;
+    align-items: center;
+}
+
+@media screen and (max-width: 850px){
+.product {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+    padding: 10px;
+    margin-bottom: 16px;
+    overflow: hidden;
+}
+.proPhoto {
+    width: 30%;
+    float: left;
+    position: relative;
+}
+.proChoice {
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    width: 66%;
+}
+.proChoice h1 {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1.5;
+    margin: 0 0 5px;
+    display: block;
+    color: #333;
+    letter-spacing: .5px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-family: arial,helvetica,sans-serif;
+}
+
+
+.m {
+    margin-top: 2px;
+}
+
+.m div {
+    font-size: 10px;
+    margin-bottom: 1px;
+    display: flex;
+    padding: 5px 0;
+    border-bottom: 1px dashed #efefef;
+    line-height: 1;
+    align-items: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+}

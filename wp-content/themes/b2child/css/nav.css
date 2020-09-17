@@ -1,0 +1,88 @@
+/*顶栏背景颜色*/
+.header{
+background: #171414;
+}
+.top-style-blur{
+background: #171414;
+}
+.logo img {
+    height: 40px;
+}
+
+/*顶栏固定*/
+.site.up .site-header-in{
+    transform: translate(0,-0px);
+    transition: transform .5s,background-color .5s ease-out;
+}
+/*页眉隐藏*/
+.header-banner{
+	display:none;
+}
+.site-header{
+    height:58px;
+}
+/*纹理隐藏*/
+.site{
+    display: flex;
+    min-height: 100vh;
+    flex-flow: column;
+    background-image:none;
+}
+/*导航字体*/
+.top-menu ul li.depth-0>a {
+    color: #e0e6f0;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+/*登录按钮*/
+.header-login-button button{
+    border:0;
+    font-size: 13px;
+    padding: 8px 13px;
+}
+
+button.empty, .button.empty {
+    background: rgb(255, 255, 255);
+}
+/* 导航菜单增加角标 */
+/* <span class="s-blue">分享</span> */
+#top-menu-ul .s-blue {
+    display: inline-block;
+    -webkit-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-12px);
+    font-size: .75rem;
+    letter-spacing: 0.05em;
+    background: #188ef4;
+    background: -webkit-linear-gradient(legacy-direction(to right), #6454ef 0%, #316ce8 100%);
+    background: -webkit-gradient(linear, left top, right top, from(#6454ef), to(#316ce8));
+    background: -webkit-linear-gradient(left, #6454ef 0%, #316ce8 100%);
+    background: -o-linear-gradient(left, #6454ef 0%, #3021ec 100%);
+    background: linear-gradient(to right,#f44336 0%,#3f51b5 100%);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .15rem .275rem;
+    line-height: 1;
+    font-weight: bold;
+}
+/* <span class="s-blue-2">更新中</span> */
+#top-menu-ul .s-blue-2 {
+    display: inline-block;
+    -webkit-transform: translateY(-12px);
+    -ms-transform: translateY(-12px);
+    transform: translateY(-12px);
+    font-size: .75rem;
+    letter-spacing: 0.05em;
+    background: #188ef4;
+    background: linear-gradient(to right,#3f51b5 0%,#3f51b5 100%);
+    color: #ffffff;
+    border-radius: 1rem;
+    padding: .15rem .275rem;
+    line-height: 1;
+    font-weight: bold;
+}
+/* 导航菜单下 */
+.top-menu ul li.depth-0 > a .hob {
+    height: 0px;
+}

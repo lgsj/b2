@@ -1,0 +1,7 @@
+/*隐藏海报生成*/
+.content-footer-poster button.poster-span{
+	display:none;
+}
+.download-box {
+   border: 2px dashed #ff5f33;
+}
